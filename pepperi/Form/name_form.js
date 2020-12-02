@@ -65,7 +65,7 @@ const adder = () =>{
       nameInput.value = ''
       const element = createItem(nameValuePair)
       mainList.push(element)
-      refresh();  
+      outputList.appendChild(element)  
    }
 }
 
