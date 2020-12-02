@@ -1,0 +1,34 @@
+#form-section{
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+#input-btns{
+   flex-direction: column;
+}
+
+#heading-section #input-group #input-btns .btn{
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 90%;
+}
+
+#form-section #input-output-container{
+   grid-column-start: 1;
+   grid-column-end: 5;
+}
+
+#btn-container{
+   padding-top: 1%;
+   grid-column-start: 1;
+   grid-column-end: 5;
+}
+
+#btn-container .btn{
+   height: 30px;
+   margin-top: 2%;
+}
+

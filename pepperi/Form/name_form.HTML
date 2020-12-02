@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="name_form.css">
+   <link rel="stylesheet" media="screen and (max-width: 800px)" href="/name_form_mobile.css">
+   <title>Test</title>
+</head>
+<body>
+   <div id="form-section">
+      <div id=heading-section>
+         <h2><span>Test</span></h2>      
+         <div id="input-group">
+            <label for="name-value-input">Enter pair according to the format</label> <br>
+            <textarea placeholder="Name=Value" id="name-value-input"></textarea>
+            <div id=input-btns>
+               <button class="btn" id ='add-btn' >Add</button>
+               <button class="btn" id = 'delete-btn'>Delete</button>
+            </div>
+         </div>     
+      </div>
+      <div id="input-output-container">    
+         <div id="output-console">
+            <label for="message">Name/Values list (select to delete)</label> 
+            <div id='name-values'></div>
+            <div id='xml-output'></div>
+         </div>
+      </div>
+      <div id="btn-container">
+            <button class="btn" id ='by-name'>Sort by name</button>
+            <button class="btn" id = by-value>Sort by value</button>
+            <button class="btn" id='convert-btn'>Convert to XML</button>
+            <button class="btn" id='return-btn'>Go back to input list</button>
+      </div>
+   </div>
+   
+   <!-- I created responsive disign without landscape mode, but just for testing hope it is okay (takes 1 media query more) -->
+   <script src="name_form.js"></script>
+</body>
+</html>

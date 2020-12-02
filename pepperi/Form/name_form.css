@@ -1,0 +1,154 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+html, body{
+   font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+   line-height: 1.7em;
+   background: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg") no-repeat fixed center;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+
+
+#form-section{
+   margin: auto;
+   margin-top: 5%;
+   margin-bottom: 10%;
+   width: 60%;
+   height: 80%;
+   background-color: white;
+   border-radius: 2px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 2fr 5fr;
+   padding: 1%;
+}
+
+h2 {
+   font-size: 1.5rem;
+   color:black;
+   padding: 2% 2%;
+   font-weight: 500;
+}
+
+#form-section #heading-section{
+   padding:1%;
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+
+#input-btns{
+   display: flex;
+}
+
+#heading-section #name-value-input {
+   width: 98%;
+   height: 40px;
+   margin-bottom: 2%;
+   display: block;
+}
+
+#add-btn{
+   background: rgb(70, 177, 84);
+   width: 30%;
+   margin: auto;
+   display: inline-block;
+}
+
+#add-btn:hover{
+   background: rgb(52, 134, 63);
+}
+
+#delete-btn{
+   background: #BD2031;
+   width: 30%;
+   margin: auto;
+   display: inline-block;
+}
+
+#delete-btn:hover{
+   background: #BD0001;
+}
+
+
+#form-section #input-output-container{
+   grid-column-start: 1;
+   grid-column-end: 2;
+   width: 100%;
+   height: 100%;
+   background-color: white;
+   padding: 2%;
+   overflow: auto;
+}
+
+#output-console{
+   width: 100%;
+   height: 100%;
+}
+
+#output-console #name-values{
+   width: 100%;
+   height: 95%;
+   padding: 1%;
+   border: 1px solid lightgray;
+   border-radius: 2px;
+   overflow: auto;
+}
+#output-console #xml-output{
+   display: none;
+   overflow: auto;
+   width: 100%;
+   height: 95%;
+   padding: 1%;
+   border: 1px solid lightgray;
+   border-radius: 2px;
+   overflow: auto;
+}
+
+#output-console input{
+   cursor: pointer; 
+   color: gray;
+   width: 10px; 
+   height: 10px;
+   border-radius: 10px; 
+}
+
+#btn-container{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+
+label{
+   font-size: 0.7rem;
+   color: gray;
+}
+
+.btn{
+   display: block;
+   background: #225fff;
+   border: none;
+   border-radius: 5px;
+   color:white;
+   width:90%;
+   margin: auto;
+   height: 40px;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   font-size: 1.1 rem;
+   cursor: pointer;
+}
+
+.btn:hover{
+   background: #221fff;
+}
+
+
